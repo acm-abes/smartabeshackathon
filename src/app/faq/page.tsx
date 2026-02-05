@@ -161,15 +161,6 @@ export default function FAQPage() {
               </div>
             ))}
           </div>
-
-          {/* Contact Section Placeholder */}
-          <div className="mt-16 text-center">
-            <div className="inline-block bg-[#165a94]/40 backdrop-blur-sm border-2 border-[#165a94] px-8 py-4 rounded-lg">
-              <p className="text-white font-mono text-lg">
-                For more information, check our contact details on the home page
-              </p>
-            </div>
-          </div>
         </div>
       </section>
     </main>

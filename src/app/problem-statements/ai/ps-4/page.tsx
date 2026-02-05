@@ -30,46 +30,38 @@ const AIPS4 = () => {
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          In modern recruitment and remote hiring ecosystems, video interviews 
-          have become a primary medium for candidate assessment. While verbal 
-          responses are important, behavioral cues such as posture, facial 
-          expressions, gaze patterns, speaking rhythm, confidence indicators, 
-          and environmental interaction provide deeper insight into candidate 
+          In modern recruitment and remote hiring ecosystems, video interviews
+          have become a primary medium for candidate assessment. While verbal
+          responses are important, behavioral cues such as posture, facial
+          expressions, gaze patterns, speaking rhythm, confidence indicators,
+          and environmental interaction provide deeper insight into candidate
           intent, engagement, and personality traits.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Manual evaluation of these signals is subjective, inconsistent, and 
-          difficult to scale. There is a growing need for an automated AI-driven 
-          system that can analyze interview videos and convert behavioral signals 
-          into structured, measurable, and interpretable insights.
+          Manual evaluation of these signals is subjective, inconsistent, and
+          difficult to scale. There is a growing need for an automated AI-driven
+          system that can analyze interview videos and convert behavioral
+          signals into structured, measurable, and interpretable insights.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Such a system must process multimodal data (video + audio), handle 
-          variability in recording environments, and produce objective, 
-          explainable behavioral analytics that assist human decision-making 
+          Such a system must process multimodal data (video + audio), handle
+          variability in recording environments, and produce objective,
+          explainable behavioral analytics that assist human decision-making
           rather than replace it.
         </p>
-        
+
         <h2 className="text-2xl font-semibold mb-4">Why the Problem Matters</h2>
 
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Behavioral assessment plays a crucial role in interview outcomes, yet 
-          it is often influenced by interviewer bias, fatigue, and inconsistency. 
-          Automated behavioral analysis enables:
+          Behavioral assessment plays a crucial role in interview outcomes, yet
+          it is often influenced by interviewer bias, fatigue, and
+          inconsistency. Automated behavioral analysis enables:
         </p>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
-          <li>
-            Objective and reproducible candidate evaluation
-          </li>
-          <li>
-            Scalable processing of large interview volumes  
-          </li>
-          <li>
-            Reduced interviewer bias
-          </li>
-          <li>
-            Data-driven decision support for hiring teams
-          </li>
+          <li>Objective and reproducible candidate evaluation</li>
+          <li>Scalable processing of large interview volumes</li>
+          <li>Reduced interviewer bias</li>
+          <li>Data-driven decision support for hiring teams</li>
         </ul>
       </section>
 
@@ -81,58 +73,46 @@ const AIPS4 = () => {
           Design an AI/ML system capable of:
         </p>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
-          <li>
-            Processing recorded interview videos 
-          </li>
-          <li>
-            Extracting multimodal behavioral features 
-          </li>
-          <li>
-            Quantifying behavioral traits into structured metrics 
-          </li>
-          <li>
-            Generating interpretable and explainable outputs
-          </li>
+          <li>Processing recorded interview videos</li>
+          <li>Extracting multimodal behavioral features</li>
+          <li>Quantifying behavioral traits into structured metrics</li>
+          <li>Generating interpretable and explainable outputs</li>
         </ul>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          The system must be robust to lighting changes, background noise, 
-          camera variations, and diverse candidate demographics without manual 
+          The system must be robust to lighting changes, background noise,
+          camera variations, and diverse candidate demographics without manual
           preprocessing.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-4">
-          Core Objectives
-        </h2>
-        
-        {/*Yahan se shuru hoga*/} 
+        <h2 className="text-2xl font-semibold mb-4">Core Objectives</h2>
+
+        {/*Yahan se shuru hoga*/}
         <ol className="list-decimal list-inside ml-4 mb-4 space-y-2">
           <li>
-            Extract Multimodal Behavioral Features 
+            Extract Multimodal Behavioral Features
             <p>
-                Detect facial expressions, gaze direction, posture, gestures, 
-                speaking tempo, pitch variation, pauses, and environmental 
-                attention shifts.
+              Detect facial expressions, gaze direction, posture, gestures,
+              speaking tempo, pitch variation, pauses, and environmental
+              attention shifts.
             </p>
           </li>
           <li>
             Quantify Behavioral Traits
             <p>
-                Translate signals into metrics such as Confidence Score, 
-                Engagement Index, Focus Consistency, Stress Indicators, and 
-                External Reference Usage.
+              Translate signals into metrics such as Confidence Score,
+              Engagement Index, Focus Consistency, Stress Indicators, and
+              External Reference Usage.
             </p>
           </li>
           <li>
-            Ensure Explainability  
-            <p>
-                Provide evidence-backed reasoning for each behavioral score.
-            </p>
+            Ensure Explainability
+            <p>Provide evidence-backed reasoning for each behavioral score.</p>
           </li>
           <li>
             Handle Variability
             <p>
-                Maintain reliable performance across diverse recording 
-                environments and video quality.
+              Maintain reliable performance across diverse recording
+              environments and video quality.
             </p>
           </li>
         </ol>
@@ -143,21 +123,13 @@ const AIPS4 = () => {
           Expected Technical Outcomes
         </h2>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
-          <li>
-            Reliable detection of visual and audio behavioral markers  
-          </li>
+          <li>Reliable detection of visual and audio behavioral markers</li>
           <li>
             Conversion of raw signals into standardized behavioral metrics
           </li>
-          <li>
-            Explainable trait scoring model  
-          </li>
-          <li>
-            Batch processing capability for 50+ videos  
-          </li>
-          <li>
-            Structured report or dashboard output
-          </li>
+          <li>Explainable trait scoring model</li>
+          <li>Batch processing capability for 50+ videos</li>
+          <li>Structured report or dashboard output</li>
         </ul>
       </section>
 
@@ -169,18 +141,12 @@ const AIPS4 = () => {
           <li>
             Input videos may vary in format, lighting, angle, and audio quality
           </li>
-          <li>
-            No manual tagging or preprocessing allowed 
-          </li>
+          <li>No manual tagging or preprocessing allowed</li>
           <li>
             System must work without requiring high-end inference hardware
           </li>
-          <li>
-            Models must avoid demographic bias 
-          </li>
-          <li>
-            Interviews primarily in English
-          </li>
+          <li>Models must avoid demographic bias</li>
+          <li>Interviews primarily in English</li>
         </ul>
       </section>
 
@@ -191,61 +157,43 @@ const AIPS4 = () => {
         </p>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
           <li>
-            Computer Vision (pose estimation, gaze tracking, expression recognition)  
+            Computer Vision (pose estimation, gaze tracking, expression
+            recognition)
           </li>
           <li>
-            Speech Processing (prosody, pause detection, speech rate analysis)  
+            Speech Processing (prosody, pause detection, speech rate analysis)
           </li>
-          <li>
-            Multimodal fusion  
-          </li>
-          <li>
-            Behavioral scoring logic and normalization
-          </li>
-          <li>
-            Explainable AI methods
-          </li>
+          <li>Multimodal fusion</li>
+          <li>Behavioral scoring logic and normalization</li>
+          <li>Explainable AI methods</li>
         </ul>
-        
+
         <h2 className="text-2xl font-semibold mb-4">Evaluation Criteria</h2>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
           <li>Mandatory Requirements </li>
-          <li>
-            Extraction of at least five behavioral metrics per video
-          </li>
+          <li>Extraction of at least five behavioral metrics per video</li>
           <li>Generation of trait scores</li>
           <li>Processing of 50 videos within defined compute constraints</li>
           <li>Explainable scoring methodology</li>
           <li>
             Nice to have Features:
             <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
-            <li>Behavioral event timeline visualization</li>
-            <li>Confidence/uncertainty score per trait</li>
-            <li>Multi-camera support</li>
-            <li>Transcript-behavior correlation</li>
+              <li>Behavioral event timeline visualization</li>
+              <li>Confidence/uncertainty score per trait</li>
+              <li>Multi-camera support</li>
+              <li>Transcript-behavior correlation</li>
             </ul>
           </li>
         </ul>
-        
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold mb-4">
-          Acceptance Threshold
-        </h2>
+        <h2 className="text-2xl font-semibold mb-4">Acceptance Threshold</h2>
         <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
-          <li>
-            Stable processing without system failures
-          </li>
-          <li>
-            Consistent behavioral scoring outputs  
-          </li>
-          <li>
-            Interpretable analytics for each candidate
-          </li>
-          <li>
-            Robustness across diverse recording conditions
-          </li>
+          <li>Stable processing without system failures</li>
+          <li>Consistent behavioral scoring outputs</li>
+          <li>Interpretable analytics for each candidate</li>
+          <li>Robustness across diverse recording conditions</li>
         </ul>
       </section>
 
@@ -255,7 +203,7 @@ const AIPS4 = () => {
           Your system should include these technical components:
         </p>
         <div className="space-y-4">
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-gray-50 p-4 rounded-lg text-black">
             <h3 className="font-semibold text-lg mb-2">
               Pathfinding (Graph Traversal)
             </h3>
@@ -266,7 +214,7 @@ const AIPS4 = () => {
               allocation.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-gray-50 p-4 rounded-lg text-black">
             <h3 className="font-semibold text-lg mb-2">
               Difficulty Scaling (Adaptive Control)
             </h3>
@@ -276,7 +224,7 @@ const AIPS4 = () => {
               Keep challenges neither too easy nor too hard.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-gray-50 p-4 rounded-lg text-black">
             <h3 className="font-semibold text-lg mb-2">
               State Tracking (Knowledge Modeling)
             </h3>
@@ -286,7 +234,7 @@ const AIPS4 = () => {
               just memorized an answer.
             </p>
           </div>
-          <div className="bg-gray-50 p-4 rounded-lg">
+          <div className="bg-gray-50 p-4 rounded-lg text-black">
             <h3 className="font-semibold text-lg mb-2">
               Optimization (Multi-Objective)
             </h3>
@@ -389,29 +337,32 @@ const AIPS4 = () => {
         </div>
       </section>
 
-      <section className="mt-8">
-        
-      </section>
+      <section className="mt-8"></section>
 
       <div className="mt-12 p-6 bg-blue-50 rounded-lg border border-blue-200">
-        <h3 className="text-gray-700 text-xl font-semibold mb-2">Problem Gist</h3>
+        <h3 className="text-gray-700 text-xl font-semibold mb-2">
+          Problem Gist
+        </h3>
         <ul className="text-gray-700 list-disc list-inside ml-4 mb-4 space-y-2">
-            <li>
-              <strong>Problem Type:</strong> Interview Video Behavioral Analytics
-            </li>
-            <li>
-              <strong>Domain:</strong> AI / Computer Vision / Speech Processing
-            </li>
-            <li>
-              <strong>Key Objectives:</strong> Behavioral feature extraction, trait scoring, explainability
-            </li>
-            <li>
-              <strong>Constraints:</strong> Variable video quality, no manual preprocessing
-            </li>
-            <li>
-                <strong>Challenge:</strong> Converting multimodal signals into objective behavioral metrics
-            </li>
-          </ul>
+          <li>
+            <strong>Problem Type:</strong> Interview Video Behavioral Analytics
+          </li>
+          <li>
+            <strong>Domain:</strong> AI / Computer Vision / Speech Processing
+          </li>
+          <li>
+            <strong>Key Objectives:</strong> Behavioral feature extraction,
+            trait scoring, explainability
+          </li>
+          <li>
+            <strong>Constraints:</strong> Variable video quality, no manual
+            preprocessing
+          </li>
+          <li>
+            <strong>Challenge:</strong> Converting multimodal signals into
+            objective behavioral metrics
+          </li>
+        </ul>
       </div>
     </div>
   );
