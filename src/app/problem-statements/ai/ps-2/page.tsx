@@ -26,6 +26,9 @@ const AIPS2 = () => {
       <p className="text-gray-600 mb-8">
         Engineering Progressive Learning Journeys
       </p>
+      <p className="text-lg text-[#165a94] font-medium mb-4">
+        <span className="text-gray-600">from</span> Building for Fun
+      </p>
 
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Context & Background</h2>

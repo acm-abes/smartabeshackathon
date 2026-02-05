@@ -26,6 +26,9 @@ const AIPS4 = () => {
       <p className="text-gray-600 mb-8">
         Context & Background in Modern Interview Evaluation
       </p>
+      <p className="text-lg text-[#165a94] font-medium mb-4">
+        <span className="text-gray-600">from</span> Skillbrew.AI
+      </p>
 
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
