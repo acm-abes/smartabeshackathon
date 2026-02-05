@@ -35,7 +35,7 @@ const timelineEvents: TimelineEvent[] = [
     id: "speaker-session",
     date: "Feb 1, 2026",
     title: "Learning Drop: To boost the learning process",
-    description:[
+    description: [
       "• Session 1: Participants will learn about open source contributions by Mr. Akshit Batra.",
     ],
     icon: "🎤",
@@ -48,9 +48,10 @@ const timelineEvents: TimelineEvent[] = [
     title: "Panel Discussion",
     description: [
       "Industry experts will host sessions focused on:",
-      "• Practical algorithm usage",
-      "• Fast full-stack development",
+      "• The gap between academic learning and industry expectations",
+      "• How to survive and thrive in the era of AI",
       "• Real-world engineering thinking",
+      "• Common pitfalls in hackathons and how to avoid them",
     ],
     icon: "🎓",
     type: "minor",
