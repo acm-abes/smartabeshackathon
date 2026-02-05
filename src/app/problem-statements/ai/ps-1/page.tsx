@@ -2,20 +2,14 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title:
     "Automated Resume Information Extraction, Scoring, and Ranking System - Smart ABES Hackathon",
   description:
     "Problem Statement 1: Design an automated system for resume parsing, scoring, and ranking using algorithmic approaches. Handle diverse formats and extract structured information.",
-  openGraph: {
-    title:
-      "Problem Statement 1 - Automated Resume Information Extraction, Scoring, and Ranking System",
-    description:
-      "Solve the resume parsing and ranking challenge in Smart ABES Hackathon",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/ai/ps-1",
-  },
-};
+});
 
 const AIPS1 = () => {
   return (

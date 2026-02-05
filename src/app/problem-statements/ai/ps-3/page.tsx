@@ -2,20 +2,14 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title:
     "Gamified Concept Mastery Engine for Learning Complex Technical Topics - Smart ABES Hackathon",
   description:
     "Problem Statement 3: Design a learning game engine that transforms complex technical concepts into interactive, playful experiences using algorithmic progression and state tracking.",
-  openGraph: {
-    title:
-      "Problem Statement 3 - Gamified Concept Mastery Engine for Learning Complex Technical Topics",
-    description:
-      "Build a game engine that makes learning complex topics engaging and intuitive",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/ai/ps-3",
-  },
-};
+});
 
 const AIPS3 = () => {
   return (

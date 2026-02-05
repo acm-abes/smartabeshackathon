@@ -2,20 +2,14 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title:
     "Problem Statement 4 - AI-Driven Interview Video Processing for Behavioral Trait Extraction - Smart ABES Hackathon",
   description:
     "Problem Statement 4: Build an AI-driven system for processing interview videos to extract behavioral traits.",
-  openGraph: {
-    title:
-      "Problem Statement 4 - AI-Driven Interview Video Processing for Behavioral Trait Extraction",
-    description:
-      "Build an AI-driven system for processing interview videos to extract behavioral traits",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/ai/ps-4",
-  },
-};
+});
 
 const AIPS4 = () => {
   return (

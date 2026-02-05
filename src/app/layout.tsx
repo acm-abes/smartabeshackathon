@@ -16,70 +16,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title: "Smart ABES Hackathon 2025 - DSA & Innovation",
   description:
     "Join Smart ABES Hackathon - The Missing Piece. Build innovative projects powered by Data Structures and Algorithms. Register now for this exclusive hackathon event.",
-  keywords: [
-    "Smart ABES Hackathon",
-    "hackathon 2025",
-    "Data Structures and Algorithms",
-    "DSA hackathon",
-    "coding competition",
-    "ABES hackathon",
-    "innovation challenge",
-  ],
-  authors: [{ name: "ABES Institute" }],
-  category: "Technology",
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-snippet": -1,
-      "max-image-preview": "large",
-      "max-video-preview": -1,
-    },
-  },
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
-  manifest: "/manifest.json",
-  metadataBase: new URL("https://smartabeshackathon.tech"),
-  alternates: {
-    canonical: "https://smartabeshackathon.tech",
-  },
-  openGraph: {
-    title: "Smart ABES Hackathon - The Missing Piece",
-    description:
-      "A hackathon about building projects that work better because of Data Structures and Algorithms.",
-    images: [
-      {
-        url: "/logo.png",
-        alt: "Smart ABES Hackathon Logo",
-      },
-    ],
-    siteName: "Smart ABES Hackathon",
-    type: "website",
-    url: "https://smartabeshackathon.tech",
-    locale: "en_US",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Smart ABES Hackathon - The Missing Piece",
-    description:
-      "Build innovative projects powered by Data Structures and Algorithms",
-    images: ["/logo.png"],
-  },
-  applicationName: "Smart ABES Hackathon",
-  formatDetection: {
-    email: false,
-    telephone: false,
-  },
-};
+});
 
 export default function RootLayout({
   children,

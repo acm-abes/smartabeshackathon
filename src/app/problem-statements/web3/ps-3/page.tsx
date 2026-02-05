@@ -2,20 +2,14 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title:
     "DePIN (Decentralized Physical Infrastructure Networks) - Smart ABES Hackathon",
   description:
     "Problem Statement 3 -  DePIN (Decentralized Physical Infrastructure Networks)",
-  openGraph: {
-    title:
-      "Problem Statement 3 - DePIN (Decentralized Physical Infrastructure Networks)",
-    description:
-      "Solving the DePIN (Decentralized Physical Infrastructure Networks) challenge in Smart ABES Hackathon",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/web3/ps-3",
-  },
-};
+});
 
 const Web3PS3 = () => {
   return (

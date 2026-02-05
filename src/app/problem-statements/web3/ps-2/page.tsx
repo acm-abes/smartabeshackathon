@@ -2,16 +2,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title: "DeFi - Smart ABES Hackathon",
   description: "Problem Statement 2 -  Consumer Apps",
-  openGraph: {
-    title: "Problem Statement 2 - Consumer Apps",
-    description: "Solving the Consumer Apps challenge in Smart ABES Hackathon",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/web3/ps-2",
-  },
-};
+});
 
 const Web3PS2 = () => {
   return (

@@ -2,20 +2,14 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/config/site";
+
+export const metadata: Metadata = constructMetadata({
   title:
     "Algorithmic Learning Path Generator from Unstructured Developer Content - Smart ABES Hackathon",
   description:
     "Problem Statement 2: Design a system that transforms unstructured learning resources into optimized learning paths using algorithms and concept dependency modeling.",
-  openGraph: {
-    title:
-      "Problem Statement 2 - Algorithmic Learning Path Generator from Unstructured Developer Content",
-    description:
-      "Solve the learning path generation challenge in Smart ABES Hackathon",
-    type: "website",
-    url: "https://smartabeshackathon.tech/problem-statements/ai/ps-2",
-  },
-};
+});
 
 const AIPS2 = () => {
   return (
