@@ -22,7 +22,7 @@ const judges: Judge[] = [
   {
     id: "2",
     name: "Mr. Anand Thakur",
-    title: "CEO of Technoledge Edusearch",
+    title: "CEO, Technoledge Edusearch",
     image: "/judges/Anand Thakur.jpeg",
   },
   {
@@ -32,10 +32,10 @@ const judges: Judge[] = [
     image: "/judges/water board.jpeg",
   },
   {
-     id: "4",
-     name: "Mr. Arpan Garg",
-     title: "Founder of Commudle",
-     image: "/judges/Arpan Garg.jpeg",
+    id: "4",
+    name: "Mr. Arpan Garg",
+    title: "Founder, Commudle",
+    image: "/judges/Arpan Garg.jpeg",
   },
   {
     id: "5",
@@ -46,7 +46,7 @@ const judges: Judge[] = [
   {
     id: "6",
     name: "Mr. Naman Kaley",
-    title: "Docker Captain, Lead Engineer",
+    title: "Lead Engineer, Docker Captain",
     image: "/judges/Naman Kaley.jpeg",
   },
 ];
@@ -62,26 +62,14 @@ export default function JudgesPage() {
         opacity: 0,
         y: -30,
         duration: 1,
-      })
-        .from(
-          ".faq-divider",
-          {
-            scaleX: 0,
-            duration: 0.8,
-          },
-          "-=0.5",
-        )
-
-        .from(
-          ".faq-item",
-          {
-            opacity: 0,
-            x: -50,
-            duration: 0.6,
-            stagger: 0.15,
-          },
-          "-=0.3",
-        );
+      }).from(
+        ".faq-divider",
+        {
+          scaleX: 0,
+          duration: 0.8,
+        },
+        "-=0.5",
+      );
     }, containerRef);
 
     return () => ctx.revert();
@@ -171,7 +159,7 @@ export default function JudgesPage() {
           <div className="md:hidden grid grid-cols-1 gap-8">
             {judges.map((judge) => (
               <div key={judge.id} className="faq-item">
-                <div className="bg-white/5 backdrop-blur-sm border-2 border-[#165a94] hover:border-[#5fb8dc] transition-all duration-300 p-8 h-full group hover:bg-white/10 relative flex flex-col items-center justify-start">
+                <div className="backdrop-blur-sm border-2 border-[#165a94] hover:border-[#5fb8dc] transition-all duration-300 p-8 h-full group relative flex flex-col items-center justify-start">
                   {/* Image */}
                   <div className="w-40 h-40 mb-6 overflow-hidden rounded-full border-4 border-[#5fb8dc]/30 group-hover:scale-105 transition-transform duration-300 shrink-0">
                     <Image
@@ -210,7 +198,7 @@ export default function JudgesPage() {
               return (
                 <div key={judge.id} className="relative">
                   {/* Wrapper with border around entire judge */}
-                  <div className="bg-white/5 backdrop-blur-sm p-6 lg:p-8 relative transition-all duration-300">
+                  <div className="backdrop-blur-sm p-6 lg:p-8 relative transition-all duration-300">
                     <div
                       className={`flex items-center gap-8 ${isOdd ? "flex-row" : "flex-row-reverse"}`}
                     >

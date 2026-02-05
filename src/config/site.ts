@@ -9,10 +9,9 @@ export const siteConfig = {
   url: "https://smartabeshackathon.tech",
   ogImage: "https://smartabeshackathon.tech/logo.png",
   links: {
-    github: "https://github.com/YourOrg/smartabeshackathon", // Update with actual link if available
-    twitter: "https://twitter.com/SmartABES", // Update with actual link if available
+    github: "https://github.com/acm-abes/smartabeshackathon", // Update with actual link if available
   },
-  authors: [{ name: "ABES Institute" }],
+  authors: [{ name: "ABES ACM" }],
   keywords: [
     "hackathon",
     "DSA",
@@ -53,7 +52,6 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@SmartABES",
     },
     icons,
     metadataBase: new URL(siteConfig.url),
