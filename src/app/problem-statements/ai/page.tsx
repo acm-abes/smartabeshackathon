@@ -19,10 +19,14 @@ const AI = () => {
           {/* PS-1 */}
           <Link href="/problem-statements/ai/ps-1">
             <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 Automated Resume Information Extraction, Scoring, and Ranking
                 System
               </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Techknowledge
+                Edusearch
+              </p>
               <p className="text-white/70 text-sm">
                 Design an automated system for resume parsing, scoring, and
                 ranking using algorithmic approaches. Extract structured
@@ -35,10 +39,13 @@ const AI = () => {
           {/* PS-2 */}
           <Link href="/problem-statements/ai/ps-2">
             <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 Algorithmic Learning Path Generator from Unstructured Developer
                 Content
               </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Building for Fun
+              </p>
               <p className="text-white/70 text-sm">
                 Design a system that transforms unstructured developer content
                 into optimized learning paths. Model concept dependencies
@@ -51,10 +58,13 @@ const AI = () => {
           {/* PS-3 */}
           <Link href="/problem-statements/ai/ps-3">
             <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 Gamified Concept Mastery Engine for Learning Complex Technical
                 Topics
               </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Building for Fun
+              </p>
               <p className="text-white/70 text-sm">
                 Build a learning game engine that transforms complex topics like
                 Distributed Systems or Cryptography into engaging, playful
@@ -68,10 +78,13 @@ const AI = () => {
           {/* PS-4 */}
           <Link href="/problem-statements/ai/ps-4">
             <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all h-full duration-300 hover:scale-105 cursor-pointer">
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 AI-Driven Interview Video Processing for Behavioral Trait
                 Extraction
               </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Skillbrew.AI
+              </p>
               <p className="text-white/70 text-sm">
                 Build an AI-driven system to process interview videos and
                 extract behavioral traits. Analyze multimodal data to provide

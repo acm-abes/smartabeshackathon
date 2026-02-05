@@ -19,9 +19,13 @@ const Defence = () => {
           {/* PS-1 */}
           <Link href="/problem-statements/defence/ps-1">
             <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all duration-300 hover:scale-105 cursor-pointer">
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-white mb-1">
                 Autonomous Surveillance Path Optimisation
               </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Mr Vijay Kumar
+                Shukla
+              </p>
               <p className="text-white/70 text-sm">
                 Design a path planning algorithm for unmanned surveillance
                 drones that maximizes area coverage while minimizing energy
