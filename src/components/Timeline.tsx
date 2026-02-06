@@ -46,9 +46,9 @@ const timelineEvents: TimelineEvent[] = [
   {
     id: "mystery-1",
     date: "Feb 8, 2026",
-    title: "Panel Discussion",
+    title: "*What Makes a Problem and a solution ‘Serious’ in Engineering?*",
     description: [
-      "Industry experts will host sessions focused on:",
+      "Industry experts will discuss:",
       "• The gap between academic learning and industry expectations",
       "• How to survive and thrive in the era of AI",
       "• Real-world engineering thinking",
