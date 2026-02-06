@@ -31,9 +31,9 @@ const sessions: Session[] = [
     date: "08 February 2026",
     time: " ",
     description: [
-      "Join industry leaders as they discuss emerging trends, challenges, and opportunities in technology.",
-      "Gain insights into the skills and mindsets needed to thrive in the ever-evolving tech landscape.",
-      "Don't miss this chance to hear from the experts shaping the future of technology.",
+      "This panel will discuss how to identify real engineering problems and what makes a solution technically serious rather than superficial.",
+      "The conversation will focus on problem clarity, real-world constraints, and the importance of algorithmic reasoning, system design, and measurable improvement.",
+      "Panelists will also share common mistakes seen in hackathons and student projects, and explain what evaluators actually look for beyond demos and presentations.",
     ],
     speaker: {
       name: "Industry Experts Panel",
