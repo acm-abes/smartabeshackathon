@@ -34,9 +34,10 @@ const timelineEvents: TimelineEvent[] = [
   {
     id: "speaker-session",
     date: "Feb 1, 2026",
-    title: "Learning Drop: To boost the learning process",
+    title:
+      "Learning Drop: Open Source as Engineering Classroom, Not a Resume Hack",
     description: [
-      "• Session 1: Participants will learn about open source contributions by Mr. Akshit Batra.",
+      "Why open source is an essential part of the engineering journey, and how it can help in hackathons like SAH. A jolly interaction with a mentor who has mentored several contributors from novice to becoming experts.",
     ],
     icon: "🎤",
     type: "minor",
