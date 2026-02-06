@@ -40,7 +40,7 @@ const judges: Judge[] = [
   {
     id: "5",
     name: "Mr. Chaitanya Bajpai",
-    title: "Exo Tech",
+    title: "Software Engineer, Exo Tech",
     image: "/judges/Chaitanya Bajpai.jpeg",
   },
   {
