@@ -16,7 +16,7 @@ const judges: Judge[] = [
   {
     id: "1",
     name: "Mr. Akshit Batra",
-    title: "Building for fun",
+    title: "Building for fun, ThoughtWorks",
     image: "/judges/Akshit Batra.jpeg",
   },
   {
@@ -46,7 +46,7 @@ const judges: Judge[] = [
   {
     id: "6",
     name: "Mr. Naman Kaley",
-    title: "Lead Engineer, Docker Captain",
+    title: "Docker Captain, Lead Engineer, SkillBrew.ai",
     image: "/judges/Naman Kaley.jpeg",
   },
 ];
