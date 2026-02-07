@@ -9,31 +9,31 @@ const CRITERIA = [
     subject: "Novelty",
     fullMark: 100,
     description:
-      "Innovation and originality of the solution. How unique is your approach?",
+      "Originality and creativity of the proposed solution, including innovative approaches and unique insights.",
   },
   {
     subject: "Articulation",
     fullMark: 100,
     description:
-      "Clear understanding and articulation of the problem being solved.",
+      "Clarity in explaining the problem, approach, and reasoning behind the solution.",
   },
   {
     subject: "Optimization & Depth",
     fullMark: 100,
     description:
-      "Technical depth, efficiency, and optimization of the solution.",
+      "The depth of algorithmic thinking and optimization strategies proposed, demonstrating a thorough understanding of the problem.",
   },
   {
     subject: "Methodology",
     fullMark: 100,
     description:
-      "Well-structured approach and systematic problem-solving methodology.",
+      "The soundness of the approach, including design choices and trade-offs.",
   },
   {
     subject: "Feasibility",
     fullMark: 100,
     description:
-      "Practicality and viability of implementing the solution in real-world scenarios.",
+      "The practicality of the proposed solution within the hackathon constraints, including resource requirements and implementation complexity.",
   },
 ];
 
