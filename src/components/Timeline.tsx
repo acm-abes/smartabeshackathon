@@ -46,7 +46,7 @@ const timelineEvents: TimelineEvent[] = [
   {
     id: "mystery-1",
     date: "Feb 8, 2026",
-    title: "*What Makes a Problem and a solution ‘Serious’ in Engineering?*",
+    title: "What Makes a Problem and a solution ‘Serious’ in Engineering?",
     description: [
       "Industry experts will discuss:",
       "• The gap between academic learning and industry expectations",
@@ -77,12 +77,13 @@ const timelineEvents: TimelineEvent[] = [
     icon: "🧪",
     type: "major",
     evaluationCriteria: [
-      "Novelty",
-      "Understanding of the Problem Statement",
-      "Methodology",
-      "Depth",
+      "Novelty: Originality and creativity of the proposed solution.",
+      "Articulation: Clarity in explaining the problem, approach, and reasoning.",
+      "Optimization and Depth: The depth of algorithmic thinking and optimization strategies proposed.",
+      "Methodology: The soundness of the approach, including design choices and trade-offs.",
+      "Feasibility: The practicality of the proposed solution within the hackathon constraints.",
     ],
-    outcome: "Top 30 teams selected (10 per track)",
+    outcome: "Top 30 teams selected to advance to Round 2",
   },
   {
     id: "round-2-start",
@@ -327,7 +328,7 @@ export default function Timeline() {
 
                   {/* Supporting Text */}
                   {event.supportingText && (
-                    <div className="text-xs italic mt-3 border-t border-white/20 pt-3 text-white/60">
+                    <div className="text-sm italic mt-3 border-t border-white/20 pt-3">
                       {event.supportingText}
                     </div>
                   )}
