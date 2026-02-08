@@ -16,9 +16,10 @@ export default function Navbar() {
     { href: "/timeline", label: "Timeline" },
     { href: "/judges", label: "Judges" },
     { href: "/learning-hub", label: "Learning Hub" },
-    { href: "/judging-criteria", label: "Judging Criteria" },
+    // { href: "/judging-criteria", label: "Judging Criteria" },
     { href: "/faq", label: "FAQ" },
     { href: "/contacts", label: "Contacts" },
+    { href: "/doc-template.docx", label: "Doc Template" },
   ];
 
   return (
