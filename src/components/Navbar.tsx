@@ -19,6 +19,7 @@ export default function Navbar() {
     { href: "/judging-criteria", label: "Judging Criteria" },
     { href: "/faq", label: "FAQ" },
     { href: "/contacts", label: "Contacts" },
+    { href: "/doc-template.docx", label: "Document Template" },
   ];
 
   return (

@@ -26,6 +26,10 @@ const FAQS = [
     question: "How many teams will qualify for Round 2?",
     answer: "30 teams",
   },
+  {
+    question: "Will we get any ppt template for the presentations?",
+    answer: "It is supposed to provide enough enough content for you so that you can present it best in front of the panel.",
+  },
 ];
 
 export default function FAQPage() {
