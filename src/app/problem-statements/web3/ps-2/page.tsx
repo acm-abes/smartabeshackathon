@@ -9,7 +9,7 @@ export const metadata: Metadata = constructMetadata({
   description: "Problem Statement 2 -  Consumer Apps",
 });
 
-const Web3PS2 = () => {
+const W3PS2 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">Consumer Apps</h1>
@@ -20,10 +20,10 @@ const Web3PS2 = () => {
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">The Problem</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Current AI apps (chatbots, tutors) are "black boxes" where users have
-          zero agency. If a provider shuts down or changes its terms, the user
-          loses their personalized AI, its memory, and their progress. This is a
-          control and ownership problem, not a modeling problem.
+          Current AI apps (chatbots, tutors) are &quot;black boxes&quot; where
+          users have zero agency. If a provider shuts down or changes its terms,
+          the user loses their personalized AI, its memory, and their progress.
+          This is a control and ownership problem, not a modeling problem.
         </p>
         <h2 className="text-2xl font-semibold mb-4">Objective</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
@@ -44,16 +44,16 @@ const Web3PS2 = () => {
               following:
               <ul>
                 <li>
-                  Ownership: The AI "brain" or profile is an NFT/Account owned
-                  by the user's wallet.
+                  Ownership: The AI &quot;brain&quot; or profile is an
+                  NFT/Account owned by the user&apos;s wallet.
                 </li>
                 <li>
                   Permissions: Access to the AI is gated by on-chain tokens or
                   signatures.
                 </li>
                 <li>
-                  Memory/State: Key milestones or "learned" traits are hashed
-                  and stored on-chain.
+                  Memory/State: Key milestones or &quot;learned&quot; traits are
+                  hashed and stored on-chain.
                 </li>
               </ul>
             </li>
@@ -87,7 +87,8 @@ const Web3PS2 = () => {
                 Progress & Achievements as NFT
               </td>
               <td className="border border-[#165a94]/60 px-4 py-3 font-semibold w-1/3 text-[#165a94]">
-                Move your "learning rank" between different tutoring apps.
+                Move your &quot;learning rank&quot; between different tutoring
+                apps.
               </td>
             </tr>
             <tr>
@@ -110,8 +111,8 @@ const Web3PS2 = () => {
                 Reputation/Reward tokens
               </td>
               <td className="border border-[#165a94]/60 px-4 py-3 font-semibold w-1/3 text-[#165a94]">
-                Users earn "Intelligence Points" for correcting or training the
-                AI.
+                Users earn &quot;Intelligence Points&quot; for correcting or
+                training the AI.
               </td>
             </tr>
           </tbody>
@@ -124,15 +125,15 @@ const Web3PS2 = () => {
           <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
             <li>
               Web3 Logic: Does the use of Solana actually provide a benefit
-              (ownership/trust), or is it just "crypto-washing"?
+              (ownership/trust), or is it just &quot;crypto-washing&quot;?
             </li>
             <li>
               System Thinking: Is the split between off-chain data and on-chain
               proofs logical and efficient?
             </li>
             <li>
-              User Experience: Can a non-crypto user understand that they "own"
-              this AI?
+              User Experience: Can a non-crypto user understand that they
+              &quot;own&quot; this AI?
             </li>
           </ul>
         </div>
@@ -150,4 +151,4 @@ const Web3PS2 = () => {
   );
 };
 
-export default Web3PS2;
+export default W3PS2;

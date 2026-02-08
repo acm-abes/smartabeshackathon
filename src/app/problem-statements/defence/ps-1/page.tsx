@@ -10,7 +10,7 @@ export const metadata: Metadata = constructMetadata({
     "Problem Statement 1: Autonomous Surveillance Path Optimisation. Optimize patrol routes for security surveillance systems using advanced algorithms.",
 });
 
-const DefencePS1 = () => {
+const DEFPS1 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">
@@ -180,4 +180,4 @@ const DefencePS1 = () => {
   );
 };
 
-export default DefencePS1;
+export default DEFPS1;

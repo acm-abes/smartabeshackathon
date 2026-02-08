@@ -11,7 +11,7 @@ export const metadata: Metadata = constructMetadata({
     "Problem Statement 3 -  DePIN (Decentralized Physical Infrastructure Networks)",
 });
 
-const Web3PS3 = () => {
+const W3PS3 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">
@@ -41,8 +41,8 @@ const Web3PS3 = () => {
         <div className="text-gray-700 leading-relaxed">
           <ul className="list-disc list-inside ml-4 mb-4 space-y-2">
             <li>
-              Data Submission: A mechanism for "producers" (users or devices) to
-              report real-world activity or resource usage.
+              Data Submission: A mechanism for &quot;producers&quot; (users or
+              devices) to report real-world activity or resource usage.
             </li>
             <li>
               On-Chain Coordination: A Solana program to log contributions and
@@ -50,7 +50,7 @@ const Web3PS3 = () => {
             </li>
             <li>
               Quality Control: A reputation system or logic-based check to
-              filter out "junk" data or dishonest actors.
+              filter out &quot;junk&quot; data or dishonest actors.
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ const Web3PS3 = () => {
                 What is Contributed?
               </td>
               <td className="border border-[#165a94]/60 px-4 py-3 font-semibold w-1/3 text-[#165a94]">
-                Solana's Role
+                Solana&apos;s Role
               </td>
             </tr>
             <tr>
@@ -83,7 +83,7 @@ const Web3PS3 = () => {
                 Air quality, noise, or weather data
               </td>
               <td className="border border-[#165a94]/60 px-4 py-3 font-semibold w-1/3 text-[#165a94]">
-                Minting "Green Credits" based on sensor uptime.
+                Minting &quot;Green Credits&quot; based on sensor uptime.
               </td>
             </tr>
             <tr>
@@ -94,7 +94,7 @@ const Web3PS3 = () => {
                 Anonymized traffic or location pings
               </td>
               <td className="border border-[#165a94]/60 px-4 py-3 font-semibold w-1/3 text-[#165a94]">
-                Rewarding "Map Tiles" mapped via GPS.
+                Rewarding &quot;Map Tiles&quot; mapped via GPS.
               </td>
             </tr>
             <tr>
@@ -170,4 +170,4 @@ const Web3PS3 = () => {
   );
 };
 
-export default Web3PS3;
+export default W3PS3;

@@ -9,7 +9,7 @@ export const metadata: Metadata = constructMetadata({
   description: "Problem Statement 1 -  DeFi",
 });
 
-const Web3PS1 = () => {
+const W3PS1 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">DeFi</h1>
@@ -22,8 +22,8 @@ const Web3PS1 = () => {
         <p className="text-gray-700 mb-4 leading-relaxed">
           Current DeFi dashboards rely on delayed, off-chain indexers that fail
           to reflect Solana’s parallel execution model. During high volatility,
-          this latency causes "ghost" liquidations and capital inefficiency,
-          eroding user trust.
+          this latency causes &quot;ghost&quot; liquidations and capital
+          inefficiency, eroding user trust.
         </p>
         <h2 className="text-2xl font-semibold mb-4">Objective</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
@@ -72,7 +72,7 @@ const Web3PS1 = () => {
             </li>
             <li>
               State Management: Your approach to handling high-frequency updates
-              without lag or "stale" data.
+              without lag or &quot;stale&quot; data.
             </li>
             <li>
               Resilience: Proof of system correctness and reliability during
@@ -162,4 +162,4 @@ const Web3PS1 = () => {
   );
 };
 
-export default Web3PS1;
+export default W3PS1;
