@@ -10,7 +10,6 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links = [
-    { href: "/", label: "Register!" },
     { href: "/about", label: "About" },
     { href: "/problem-statements", label: "Problem Statements" },
     { href: "/timeline", label: "Timeline" },
@@ -20,6 +19,7 @@ export default function Navbar() {
     { href: "/faq", label: "FAQ" },
     { href: "/contacts", label: "Contacts" },
     { href: "/template", label: "Templates" },
+    { href: "https://panel.smartabeshackathon.tech", label: "Panel" },
   ];
 
   return (
@@ -86,7 +86,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+            isMenuOpen ? "opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="py-4 space-y-3">
