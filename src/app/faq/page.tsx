@@ -62,7 +62,7 @@ const FAQS = [
   {
     question: "Will we get any ppt template for the presentations?",
     answer:
-      "Nope. Just make a ppt good enough to present your solution in front of the panel of judges. Focus on the content and clarity of your presentation rather than the design.",
+      "Yes. Just go on the template page given on the navbar to get the template. Focus on the content and clarity of your presentation rather than the design.",
   },
   {
     question: "What do we need to submit for Round 1?",
