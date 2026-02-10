@@ -121,11 +121,13 @@ export default function AboutPage() {
               Download Templates
             </h2>
             <p className="text-white/90 text-base md:text-lg font-mono leading-relaxed mb-6">
-              Download the official templates for your presentations and documentation. 
-              The PPT template includes pre-formatted slides for problem statement and solution. 
-              The DOC template provides standardized format with sections for abstract, methodology, and references.
+              Download the official templates for your presentations and
+              documentation. The PPT template includes pre-formatted slides for
+              problem statement and solution. The DOC template provides
+              standardized format with sections for abstract, methodology, and
+              references.
             </p>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* PPT Template */}
               <a
@@ -134,13 +136,24 @@ export default function AboutPage() {
                 className="group relative inline-block px-8 py-4 overflow-hidden border-2 border-[#165a94] text-[#165a94] bg-[#5fb8dc]/20 backdrop-blur-md font-bold uppercase tracking-widest hover:bg-[#165a94] hover:text-[#5fb8dc] transition-all duration-300 w-full text-center"
               >
                 <div className="relative z-10 flex items-center justify-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
+                    />
                   </svg>
                   PPT Template
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#165a94] group-hover:h-full transition-all duration-300 z-0 opacity-20"></div>
-                
+
                 {/* Decorative Corner Marks */}
                 <div className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#165a94]"></div>
                 <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#165a94]"></div>
@@ -155,13 +168,24 @@ export default function AboutPage() {
                 className="group relative inline-block px-8 py-4 overflow-hidden border-2 border-[#165a94] text-[#165a94] bg-[#5fb8dc]/20 backdrop-blur-md font-bold uppercase tracking-widest hover:bg-[#165a94] hover:text-[#5fb8dc] transition-all duration-300 w-full text-center"
               >
                 <div className="relative z-10 flex items-center justify-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
+                    />
                   </svg>
-                  Doc Template
+                  Proposal Document Template
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#165a94] group-hover:h-full transition-all duration-300 z-0 opacity-20"></div>
-                
+
                 {/* Decorative Corner Marks */}
                 <div className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#165a94]"></div>
                 <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#165a94]"></div>
@@ -170,10 +194,6 @@ export default function AboutPage() {
               </a>
             </div>
           </div>
-          
-          
-        
-
         </div>
       </section>
     </main>
