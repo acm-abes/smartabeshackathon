@@ -19,7 +19,7 @@ export default function Navbar() {
     // { href: "/judging-criteria", label: "Judging Criteria" },
     { href: "/faq", label: "FAQ" },
     { href: "/contacts", label: "Contacts" },
-    { href: "/template", label: "Template" },
+    { href: "/template", label: "Templates" },
   ];
 
   return (
