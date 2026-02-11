@@ -26,6 +26,24 @@ interface Session {
 
 const sessions: Session[] = [
   {
+    id: "AI-bootcamp",
+    title: "AI Agent Mastery Bootcamp 2026",
+    date: "From 12 February 2026 to 14 February 2026",
+    time: "04:00 PM - 06:00 PM",
+    description: [
+      "In Day 1 students will learn what AI agents are, how they differ from traditional AI systems, and where they’re used in real-world applications.",
+      "In Day 2 The session covers agent workflows, tool usage, memory, decision-making, and practical use cases.",
+      "In Day 3 will be related to soft skills Interview skills and all.",
+    ],
+    speaker: {
+      name: "Naman Kaley & Ritu Soni",
+      designation: "Docker Captain & co-founder of SkillBrew.AI respectively",
+    },
+    icon: "🎤",
+    organization: "SkillBrew.AI",
+    link: "/learning-hub/ai-bootcamp",
+  },
+  {
     id: "panel-discussion",
     title: "Panel Discussion: Navigating the Future of Tech",
     date: "08 February 2026",
