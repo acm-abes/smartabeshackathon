@@ -69,6 +69,16 @@ const timelineEvents: TimelineEvent[] = [
     supportingText: "Overthinking is welcomed and encouraged",
   },
   {
+    id: "AI-bootcamp",
+    date: "From 12 February 2026 to 14 February 2026",
+    title: "AI Agent Mastery Bootcamp 2026",
+    description:
+      "A 3-Day online bootcamp focused on AI agents, system architecture, and real-world deployment by SkillBrew.AI.",
+    icon: "🎓",
+    type: "minor",
+    supportingText: "Supportive · Evaluative · Learning-focused",
+  },
+  {
     id: "round-1-eval",
     date: "Feb 14, 2026",
     title: "Round 1 Evaluation · Proposal Presentation",
