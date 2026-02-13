@@ -6,7 +6,7 @@ import { constructMetadata } from "@/config/site";
 
 export const metadata: Metadata = constructMetadata({
   title:
-    "Offroad Semantic Scene Segmentation - Smart ABES Hackathon",
+    "Duality AIʼs Offroad Semantic Scene Segmentation - Smart ABES Hackathon",
   description:
     "Problem Statement 5: Train a robust semantic segmentation model using synthetic datasets to accurately segment off-road environments for autonomous vehicles.",
 });
@@ -15,8 +15,11 @@ const AIPS5 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">
-        Offroad Semantic Scene Segmentation
+        Duality AIʼs Offroad Semantic Scene Segmentation
       </h1>
+      <p className="text-sm font-semibold text-[#165a94] mb-3">
+        PS ID: AI-PS-5
+      </p>
       <p className="text-gray-600 mb-8">
         AI Training Techniques for Off-road Autonomy
       </p>
