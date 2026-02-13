@@ -101,7 +101,7 @@ const AI = () => {
                 Duality AIʼs Offroad Semantic Scene Segmentation
               </h3>
               <p className="mb-2">
-                <span className="text-white/70">from</span> Devnovate
+                <span className="text-white/70">from</span> Duality AI
               </p>
               <p className="text-white/70 text-sm">
                  Participants will train a model using annotated images of a desert 
