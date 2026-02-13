@@ -32,9 +32,9 @@ const AIPS5 = () => {
         <p className="text-gray-700 mb-4 leading-relaxed">
           Duality AI is excited to present the Offroad Autonomy Segmentation
           challenge, a challenge designed to explore cutting-edge AI training
-          techniques. Participants will train a model using annotated images of a
-          desert environment, then test that model on a novel, but still desert,
-          environment.
+          techniques. Participants will train a model using annotated images of
+          a desert environment, then test that model on a novel, but still
+          desert, environment.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           All the data is generated from Duality AI's digital twin simulation
@@ -44,8 +44,8 @@ const AIPS5 = () => {
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Along the way, participants will learn how Duality AI uses
-          industry-proven techniques and tools and high-quality synthetic data to
-          train AI models for context shifts, unseen environments, or
+          industry-proven techniques and tools and high-quality synthetic data
+          to train AI models for context shifts, unseen environments, or
           difficult-to-access data, such as remote areas.
         </p>
         <p className="text-gray-700 leading-relaxed">
@@ -79,17 +79,18 @@ const AIPS5 = () => {
           explored as a means to address data scarcity and improve model
           robustness in computer vision tasks. Creating the data costs much less
           and takes very little time compared to traditional data collection and
-          annotation methods. Additionally, users can control variations and edge
-          cases such as weather events, time of day, and specific environment
-          characteristics, providing diverse data for robust training.
+          annotation methods. Additionally, users can control variations and
+          edge cases such as weather events, time of day, and specific
+          environment characteristics, providing diverse data for robust
+          training.
         </p>
       </section>
 
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Data Overview</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          Participants will work with a dataset generated from FalconEditor of various 
-          desert environment twins.
+          Participants will work with a dataset generated from FalconEditor of
+          various desert environment twins.
         </p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full border-collapse border border-gray-300">
@@ -113,7 +114,11 @@ const AIPS5 = () => {
                   Trees
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/trees.png" alt="Trees" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/trees.png"
+                    alt="Trees"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -122,7 +127,11 @@ const AIPS5 = () => {
                   Lush Bushes
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/lush-bushes.png" alt="Lush Bushes" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/lush-bushes.png"
+                    alt="Lush Bushes"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -131,7 +140,11 @@ const AIPS5 = () => {
                   Dry Grass
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/dry-grass.png" alt="Dry Grass" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/dry-grass.png"
+                    alt="Dry Grass"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -140,7 +153,11 @@ const AIPS5 = () => {
                   Dry Bushes
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/dry-bush.png" alt="Dry Bushes" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/dry-bush.png"
+                    alt="Dry Bushes"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -149,7 +166,11 @@ const AIPS5 = () => {
                   Ground Clutter
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/ground-clutter.png" alt="Ground Clutter" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/ground-clutter.png"
+                    alt="Ground Clutter"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -158,7 +179,11 @@ const AIPS5 = () => {
                   Flowers
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/flowers.png" alt="Flowers" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/flowers.png"
+                    alt="Flowers"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -167,7 +192,11 @@ const AIPS5 = () => {
                   Logs
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/logs.png" alt="Logs" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/logs.png"
+                    alt="Logs"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -176,7 +205,11 @@ const AIPS5 = () => {
                   Rocks
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <img src="/rocks.png" alt="Rocks" className="w-full h-auto max-w-[200px]" />
+                  <img
+                    src="/rocks.png"
+                    alt="Rocks"
+                    className="w-full h-auto max-w-[200px]"
+                  />
                 </td>
               </tr>
               <tr>
@@ -185,8 +218,7 @@ const AIPS5 = () => {
                   Landscape
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  all general ground that 
-isnʼt another category
+                  all general ground that isnʼt another category
                 </td>
               </tr>
               <tr>
@@ -194,35 +226,34 @@ isnʼt another category
                 <td className="border border-gray-300 px-4 py-2 font-medium">
                   Sky
                 </td>
-                <td className="border border-gray-300 px-4 py-2">
-                
-                </td>
+                <td className="border border-gray-300 px-4 py-2"></td>
               </tr>
             </tbody>
           </table>
         </div>
         <p className="text-gray-700 leading-relaxed">
-          Participants will process synthetic data, train an AI model to segment the data 
-          images, validate performance on unseen images from a separate desert 
-          environment, and optimize accuracy under realistic constraints. 
+          Participants will process synthetic data, train an AI model to segment
+          the data images, validate performance on unseen images from a separate
+          desert environment, and optimize accuracy under realistic constraints.
         </p>
       </section>
 
       <section className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Objectives</h2>
         <div className="space-y-6">
-            <h3 className="text-xl font-semibold mb-2">
-              1. Train a robust semantic segmentation model using the provided synthetic 
-              dataset to accurately segment an environment, which is crucial to off-road 
-              autonomy
-            </h3>
-            <h3 className="text-xl font-semibold mb-2">
-              2. Evaluate model performance in novel (but similar) scenarios.
-            </h3>
-            <h3 className="text-xl font-semibold mb-2">
-              3. Benchmark and optimize your model to improve accuracy, generalizability, 
-                    and efficiency for real-world deployment scenarios. 
-            </h3>
+          <h3 className="text-xl font-semibold mb-2">
+            1. Train a robust semantic segmentation model using the provided
+            synthetic dataset to accurately segment an environment, which is
+            crucial to off-road autonomy
+          </h3>
+          <h3 className="text-xl font-semibold mb-2">
+            2. Evaluate model performance in novel (but similar) scenarios.
+          </h3>
+          <h3 className="text-xl font-semibold mb-2">
+            3. Benchmark and optimize your model to improve accuracy,
+            generalizability, and efficiency for real-world deployment
+            scenarios.
+          </h3>
         </div>
       </section>
 
@@ -232,26 +263,23 @@ isnʼt another category
         <div className="mt-6">
           <h3 className="text-xl font-semibold mb-4">i. AI Engineering:</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            To maximize efficiency, we recommend dividing responsibilities based on these 
-            roles. Proper delegation will help streamline the workflow and ensure high-quality 
-            results across the technical and presentation components.
+            To maximize efficiency, we recommend dividing responsibilities based
+            on these roles. Proper delegation will help streamline the workflow
+            and ensure high-quality results across the technical and
+            presentation components.
           </p>
 
           <div className="space-y-6">
             <div>
-              <h4 className="text-lg font-semibold mb-2">
-                1. AI Engineering
-              </h4>
+              <h4 className="text-lg font-semibold mb-2">1. AI Engineering</h4>
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
-                  Train and fine-tune the model using the generated dataset. 
+                  Train and fine-tune the model using the generated dataset.
                 </li>
+                <li>Evaluate model performance.</li>
                 <li>
-                  Evaluate model performance.
-                </li>
-                <li>
-                    Use optimization techniques to improve accuracy and reduce 
-                    inference time. 
+                  Use optimization techniques to improve accuracy and reduce
+                  inference time.
                 </li>
               </ul>
             </div>
@@ -262,16 +290,17 @@ isnʼt another category
               </h4>
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
-                  Document the workflow, including: Data augmentation/filtering strategies, 
-                  model training, evaluation metrics such as loss graphs
+                  Document the workflow, including: Data augmentation/filtering
+                  strategies, model training, evaluation metrics such as loss
+                  graphs
                 </li>
                 <li>
-                  Prepare a structured report and final presentation showcasing findings, 
-                    results, and insights.
+                  Prepare a structured report and final presentation showcasing
+                  findings, results, and insights.
                 </li>
                 <li>
-                    Create visualizations such as performance and loss graphs to highlight 
-                    model behavior. 
+                  Create visualizations such as performance and loss graphs to
+                  highlight model behavior.
                 </li>
               </ul>
             </div>
@@ -279,43 +308,48 @@ isnʼt another category
         </div>
 
         <div className="mt-8">
-          <h3 className="text-xl font-semibold mb-4">
-            ii. Key Deliverables
-          </h3>
+          <h3 className="text-xl font-semibold mb-4">ii. Key Deliverables</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            At the end of the hackathon, teams must submit: 
+            At the end of the hackathon, teams must submit:
           </p>
           <ul className="list-none ml-4 space-y-1">
-            <li> A Trained Semantic Segmentation Model 
-                a. Fully trained model that segments the testing images into categories. <br></br>
-                b. The package must include model weights, scripts, and config files.
-            </li>
-            <li>Performance Evaluation & Analysis Report, including but is not limited to:
-                a. IoU Score to evaluate model accuracy. <br></br>
-                b. Loss graphs to visualize performance. <br></br>
-                c. Failure Case Analysis, highlighting misclassifications and possible improvements.
-            </li>
-          </ul>
-          <h3 className="text-xl font-semibold mb-4">
-            iii. Judging Criteria
-          </h3>
-          <p className="text-gray-700 mb-4 leading-relaxed">
-            Teams will be evaluated on a 100-point scale, based on the following criteria:
-          </p>
-          <ul className="list-none ml-4 space-y-1">
-            <li> 
-                a. Model Performance  <br></br>
-                IoU Score …………………………………………………………………….…...……80 Points <br></br>
-                Measures the accuracy of  pixel classification. 
+            <li>
+              {" "}
+              A Trained Semantic Segmentation Model a. Fully trained model that
+              segments the testing images into categories. <br></br>
+              b. The package must include model weights, scripts, and config
+              files.
             </li>
             <li>
-                b. Performance Report Clarity <br></br>
-                Structured Findings & Detailed Reporting……………………………….…20 Points <br></br>
-                Well-organized documentation of the methodology, challenges, and solutions. <br></br>
-                Clearly outlined steps, including any dataset modifications, model training, and evaluation.
+              Performance Evaluation & Analysis Report, including but is not
+              limited to: a. IoU Score to evaluate model accuracy. <br></br>
+              b. Loss graphs to visualize performance. <br></br>
+              c. Failure Case Analysis, highlighting misclassifications and
+              possible improvements.
             </li>
-            Teams must balance technical performance with clear and professional 
-            documentation to maximize their score. 
+          </ul>
+          <h3 className="text-xl font-semibold mb-4">iii. Judging Criteria</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            Teams will be evaluated on a 100-point scale, based on the following
+            criteria:
+          </p>
+          <ul className="list-none ml-4 space-y-1">
+            <li>
+              a. Model Performance <br></br>
+              IoU Score …………………………………………………………………….…...……80 Points <br></br>
+              Measures the accuracy of pixel classification.
+            </li>
+            <li>
+              b. Performance Report Clarity <br></br>
+              Structured Findings & Detailed Reporting……………………………….…20 Points{" "}
+              <br></br>
+              Well-organized documentation of the methodology, challenges, and
+              solutions. <br></br>
+              Clearly outlined steps, including any dataset modifications, model
+              training, and evaluation.
+            </li>
+            Teams must balance technical performance with clear and professional
+            documentation to maximize their score.
           </ul>
         </div>
       </section>
@@ -345,7 +379,8 @@ isnʼt another category
                   Visit Falcon and sign up for an account if you don't have one
                 </li>
                 <li>
-                  Once registered, log in to access datasets, exercises, and tools
+                  Once registered, log in to access datasets, exercises, and
+                  tools
                 </li>
               </ul>
             </div>
@@ -357,8 +392,8 @@ isnʼt another category
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
                   Download the dataset to your local machine (see the "Important
-                  Links" section). You will need to create a FREE Falcon account,
-                  if you haven't already.
+                  Links" section). You will need to create a FREE Falcon
+                  account, if you haven't already.
                   <ul className="list-circle list-inside ml-8 mt-2 space-y-1">
                     <li>
                       This page has all the resources for all the Duality
@@ -395,8 +430,8 @@ isnʼt another category
               </h4>
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
-                  Make sure you have Miniconda or Anaconda installed, and open an
-                  Anaconda Prompt window
+                  Make sure you have Miniconda or Anaconda installed, and open
+                  an Anaconda Prompt window
                 </li>
                 <li>Navigate to the ENV_SETUP sub folder</li>
                 <li>
@@ -428,7 +463,8 @@ isnʼt another category
                 <li>
                   train.py will train your model using the train and val images.
                   The results of this step are important, but you will not know
-                  how robust your model is until you test it using unseen images.
+                  how robust your model is until you test it using unseen
+                  images.
                 </li>
                 <li>
                   test.py will test the model against images it HASN'T seen in
@@ -449,10 +485,10 @@ isnʼt another category
                 <li>Open an anaconda command prompt or a terminal</li>
                 <li>Navigate to the training and test scripts directory</li>
                 <li>
-                  Activate the environment by typing 'conda activate EDU' in the
-                  terminal
+                  Activate the environment by typing &apos;conda activate
+                  EDU&apos; in the terminal
                 </li>
-                <li>Run the training command: 'python train.py'</li>
+                <li>Run the training command: &apos;python train.py&apos;</li>
               </ul>
               <p className="text-gray-700 mt-2 ml-4 leading-relaxed">
                 This will begin training your model and save logs + checkpoints
@@ -465,10 +501,10 @@ isnʼt another category
                 6. Establish Benchmark Results on the sample dataset
               </h4>
               <p className="text-gray-700 mb-2 leading-relaxed">
-                After training is completed, evaluate your model's performance by
-                running the train script (train.py) in the same command prompt
-                window. This tests its performance on real-world test images and
-                gives you the following:
+                After training is completed, evaluate your model's performance
+                by running the train script (train.py) in the same command
+                prompt window. This tests its performance on real-world test
+                images and gives you the following:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>Predictions</li>
@@ -526,7 +562,10 @@ isnʼt another category
                   <strong>Graphs & Charts:</strong> Show training loss, accuracy
                   trends, and comparisons
                   <ul className="list-circle list-inside ml-8 mt-2 space-y-1">
-                    <li>Screenshots: Use images from the runs/ folder after training</li>
+                    <li>
+                      Screenshots: Use images from the runs/ folder after
+                      training
+                    </li>
                     <li>
                       Before & After Images: Show examples of correct vs.
                       misclassified objects
@@ -542,12 +581,10 @@ isnʼt another category
               </h4>
               <ul className="list-disc list-inside ml-4 space-y-2">
                 <li>
-                  Record major steps like dataset manipulation, training process,
-                  and evaluation
+                  Record major steps like dataset manipulation, training
+                  process, and evaluation
                 </li>
-                <li>
-                  Avoid overly technical language — aim for clarity
-                </li>
+                <li>Avoid overly technical language — aim for clarity</li>
                 <li>
                   Use clear, plain language—assume the reader is new to the
                   project
@@ -575,8 +612,8 @@ isnʼt another category
                 4. Documenting Failure Cases and Solutions
               </h4>
               <p className="text-gray-700 ml-4 leading-relaxed">
-                Include failure case images to illustrate what went wrong and how
-                it was fixed.
+                Include failure case images to illustrate what went wrong and
+                how it was fixed.
               </p>
             </div>
 
@@ -585,8 +622,8 @@ isnʼt another category
                 5. Report Format (8 Pages Max)
               </h4>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Your Report should be concise, structured, and visually engaging.
-                Use the following storytelling approach:
+                Your Report should be concise, structured, and visually
+                engaging. Use the following storytelling approach:
               </p>
               <p className="text-center text-gray-700 font-semibold mb-4">
                 Problem → Fix → Results → Challenges → Future Work
@@ -675,7 +712,9 @@ isnʼt another category
               <strong>A single, Final Packaged Folder</strong> that includes all
               necessary files:
               <ul className="list-circle list-inside ml-8 mt-2 space-y-1">
-                <li>Model training and inference scripts (train.py, test.py)</li>
+                <li>
+                  Model training and inference scripts (train.py, test.py)
+                </li>
                 <li>Configuration files</li>
                 <li>
                   Any additional assets or scripts required to test your model
@@ -694,8 +733,8 @@ isnʼt another category
                   Optimizations: Techniques used to improve model performance
                 </li>
                 <li>
-                  Performance Evaluation: IoU score and Failure case analysis and
-                  observations
+                  Performance Evaluation: IoU score and Failure case analysis
+                  and observations
                 </li>
               </ul>
             </li>
@@ -705,9 +744,7 @@ isnʼt another category
                 <li>Step-by-step instructions to run and test your model</li>
                 <li>How to reproduce your final results</li>
                 <li>Any environment or dependency requirements</li>
-                <li>
-                  Notes on expected outputs and how to interpret them
-                </li>
+                <li>Notes on expected outputs and how to interpret them</li>
               </ul>
             </li>
           </ul>
@@ -716,32 +753,34 @@ isnʼt another category
             <p className="text-gray-700 font-semibold mb-2">Note:</p>
             <p className="text-gray-700 mb-2">
               You are welcome to use your own models and custom training scripts
-              or notebooks. However, you must train your model exclusively on the
-              dataset provided for this challenge.
+              or notebooks. However, you must train your model exclusively on
+              the dataset provided for this challenge.
             </p>
             <p className="text-gray-700 font-semibold">
               Important: Using any of the designated testing images for training
-              purposes is strictly prohibited and will result in disqualification.
-              Please ensure a clear separation between training, validation, and
-              test sets throughout your workflow.
+              purposes is strictly prohibited and will result in
+              disqualification. Please ensure a clear separation between
+              training, validation, and test sets throughout your workflow.
             </p>
           </div>
         </div>
 
         <div className="mt-8">
-          <h3 className="text-xl font-semibold mb-4">ii. Upload Instructions:</h3>
+          <h3 className="text-xl font-semibold mb-4">
+            ii. Upload Instructions:
+          </h3>
           <ol className="list-decimal list-inside ml-4 space-y-2">
-            <li>
-              Ensure your submission folder contains all of the above
-            </li>
+            <li>Ensure your submission folder contains all of the above</li>
             <li>Compress everything into a .zip file</li>
             <li>
-              Upload the zipped folder to a private GitHub repository of your own
+              Upload the zipped folder to a private GitHub repository of your
+              own
             </li>
             <li>
-              Complete the submission form (see the "Important Links" section):
+              Complete the submission form (see the &quot;Important Links&quot;
+              section):
               <ul className="list-circle list-inside ml-8 mt-2 space-y-1">
-                <li>Reporting your team's final score</li>
+                <li>Reporting your team&apos;s final score</li>
                 <li>Providing the GitHub repository link</li>
               </ul>
             </li>
@@ -776,9 +815,7 @@ isnʼt another category
                 <li>
                   After submission, teams can showcase their models and insights
                 </li>
-                <li>
-                  Feedback from judges will be provided after evaluation
-                </li>
+                <li>Feedback from judges will be provided after evaluation</li>
               </ul>
             </div>
 
@@ -793,17 +830,6 @@ isnʼt another category
                 <li>Self-supervised learning</li>
                 <li>Domain adaptation</li>
                 <li>Multi-view detection</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-semibold mb-2">
-                3. Stay connected with us via Discord for:
-              </h4>
-              <ul className="list-disc list-inside ml-4 space-y-2">
-                <li>Future challenges</li>
-                <li>Internship and apprenticeship opportunities</li>
-                <li>Community events and AI workshops</li>
               </ul>
             </div>
           </div>
@@ -836,7 +862,9 @@ isnʼt another category
           </div>
 
           <div className="bg-gray-50 p-4 rounded-lg">
-            <h3 className="text-lg font-semibold mb-2 text-[#165a94]">Download the Dataset</h3>
+            <h3 className="text-lg font-semibold mb-2 text-[#165a94]">
+              Download the Dataset
+            </h3>
             <a
               href="https://falcon.duality.ai/secure/documentation/hackathon-segmentation-desert?utm_source=hackathon&utm_medium=instructions&utm_campaign=SAH2"
               target="_blank"
@@ -848,7 +876,9 @@ isnʼt another category
           </div>
 
           <div className="bg-gray-50 p-4 rounded-lg">
-            <h3 className="text-lg font-semibold mb-2 text-[#165a94]">Discord Forum</h3>
+            <h3 className="text-lg font-semibold mb-2 text-[#165a94]">
+              Discord Forum
+            </h3>
             <a
               href="https://discord.com/invite/dualityfalconcommunity"
               target="_blank"
@@ -897,8 +927,8 @@ isnʼt another category
                 <ul className="list-disc list-inside ml-8 space-y-2">
                   <li>Reduce the batch size in your training configuration</li>
                   <li>
-                    Close any unused applications or background processes to free
-                    up system resources
+                    Close any unused applications or background processes to
+                    free up system resources
                   </li>
                   <li>
                     If using GPU, monitor GPU usage with tools like nvidia-smi
@@ -908,8 +938,8 @@ isnʼt another category
 
               <div>
                 <h4 className="text-lg font-semibold mb-2">
-                  3. How should I manage data transfer between team members or for
-                  submission?
+                  3. How should I manage data transfer between team members or
+                  for submission?
                 </h4>
                 <p className="text-gray-700 mb-2 ml-4 leading-relaxed">
                   Why backup your data:
@@ -919,8 +949,8 @@ isnʼt another category
                   <li>Backup project files and checkpoints</li>
                 </ul>
                 <p className="text-gray-700 mt-2 ml-4 leading-relaxed">
-                  We recommend using cloud storage platforms such as Google Drive,
-                  Dropbox, OneDrive, git
+                  We recommend using cloud storage platforms such as Google
+                  Drive, Dropbox, OneDrive, git
                 </p>
               </div>
             </div>
@@ -1046,17 +1076,6 @@ isnʼt another category
             We appreciate your hard work and look forward to reviewing your
             project!
           </p>
-          <p className="text-gray-700 mb-4 leading-relaxed">
-            Feel free to share your work on LinkedIn and show the world your
-            real-world problem solving skills in action!
-          </p>
-          <p className="text-gray-700 font-semibold">
-            Tag DualityAI to:
-          </p>
-          <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-            <li>Celebrate your team's efforts and creativity</li>
-            <li>Get noticed by industry experts and recruiters</li>
-          </ul>
         </div>
       </section>
     </div>
