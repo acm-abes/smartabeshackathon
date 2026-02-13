@@ -94,6 +94,25 @@ const AI = () => {
             </div>
           </Link>
 
+          {/* PS-5 */}
+          <Link href="/problem-statements/ai/ps-5">
+            <div className="bg-[#165a94]/10 backdrop-blur-sm border-2 border-[#165a94] p-8 rounded-lg hover:bg-[#165a94]/20 transition-all h-full duration-300 hover:scale-105 cursor-pointer">
+              <h3 className="text-xl font-semibold text-white mb-1">
+                Duality AIʼs Offroad Semantic Scene Segmentation
+              </h3>
+              <p className="mb-2">
+                <span className="text-white/70">from</span> Devnovate
+              </p>
+              <p className="text-white/70 text-sm">
+                 Participants will train a model using annotated images of a desert 
+                 environment, then test that model on a novel, but still desert, environment.
+                 Train a semantic segmentation model on synthetic off-road data and test it in 
+                 similar new scenarios. Optimize it for better accuracy, generalization, and 
+                 real-world efficiency.
+              </p>
+            </div>
+          </Link>
+
           {/* Add more problem statements here */}
         </div>
       </div>
