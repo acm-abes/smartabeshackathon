@@ -17,6 +17,9 @@ const W3PS3 = () => {
       <h1 className="text-4xl font-bold mb-2">
         DePIN (Decentralized Physical Infrastructure Networks)
       </h1>
+      <p className="text-sm font-semibold text-[#165a94] mb-3">
+        PS ID: WEB3-PS-3
+      </p>
       <p className="text-lg text-[#165a94] font-medium mb-4">
         <span className="text-gray-600">from</span> Chaitanya Bajpai
       </p>

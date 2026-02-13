@@ -17,6 +17,9 @@ const AIPS1 = () => {
       <h1 className="text-4xl font-bold mb-2">
         Automated Resume Information Extraction, Scoring, and Ranking System
       </h1>
+      <p className="text-sm font-semibold text-[#165a94] mb-3">
+        PS ID: AI-PS-1
+      </p>
       <p className="text-gray-600 mb-8">
         Context & Background in Modern Recruitment
       </p>

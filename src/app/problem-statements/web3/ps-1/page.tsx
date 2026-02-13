@@ -13,6 +13,9 @@ const W3PS1 = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 select-text">
       <h1 className="text-4xl font-bold mb-2">DeFi</h1>
+      <p className="text-sm font-semibold text-[#165a94] mb-3">
+        PS ID: WEB3-PS-1
+      </p>
       <p className="text-lg text-[#165a94] font-medium mb-4">
         <span className="text-gray-600">from</span> Chaitanya Bajpai
       </p>

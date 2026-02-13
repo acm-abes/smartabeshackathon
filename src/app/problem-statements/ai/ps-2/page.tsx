@@ -17,6 +17,9 @@ const AIPS2 = () => {
       <h1 className="text-4xl font-bold mb-2">
         Algorithmic Learning Path Generator from Unstructured Developer Content
       </h1>
+      <p className="text-sm font-semibold text-[#165a94] mb-3">
+        PS ID: AI-PS-2
+      </p>
       <p className="text-gray-600 mb-8">
         Engineering Progressive Learning Journeys
       </p>
