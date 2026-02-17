@@ -5,11 +5,13 @@ import Image from "next/image";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Link from "next/link";
 
 // Placeholder Variables
 const DISCORD_LINK = "https://discord.gg/ZCUdP4nwDh";
 const WHATSAPP_LINK = "https://chat.whatsapp.com/JtmozxCOd2mEojTONjOn7c";
-const REGISTER_LINK = "https://devnovate.co/event/sah-20";
+const _REGISTER_LINK = "https://devnovate.co/event/sah-20";
+const RESULT_LINK = "/results";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(useGSAP);
@@ -297,11 +299,15 @@ export default function Home() {
           </div>
 
           {/* Register Button */}
-          <a
-            href={REGISTER_LINK}
-            className="footer-element group relative inline-block px-8 py-3 overflow-hidden border-2 border-[#165a94] text-[#165a94] bg-[#5fb8dc]/20 backdrop-blur-md font-bold uppercase tracking-widest hover:bg-[#165a94] hover:text-[#5fb8dc] transition-all duration-300"
+          <Link
+            href={RESULT_LINK}
+            className="footer-element cta-glow group relative inline-block px-10 py-4 overflow-hidden border-2 border-[#165a94] backdrop-blur-md font-bold uppercase tracking-widest text-base md:text-lg hover:bg-[#165a94] text-[#165a94] transition-all duration-300 hover:text-yellow-300 bg-yellow-300"
           >
-            <span className="relative z-10">Register Now</span>
+            <span className="relative z-10">View Results</span>
+            <span
+              className="cta-sparkle absolute inset-0 z-0"
+              aria-hidden="true"
+            ></span>
             <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#165a94] group-hover:h-full transition-all duration-300 z-0 opacity-20"></div>
 
             {/* Decorative Corner Marks */}
@@ -309,7 +315,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#165a94]"></div>
             <div className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#165a94]"></div>
             <div className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#165a94]"></div>
-          </a>
+          </Link>
         </div>
 
         {/* Social Icons (Bottom Left) - Hidden on mobile, visible on desktop */}
