@@ -60,8 +60,11 @@ const Round1Results = () => {
         </header>
 
         <div className="results-podium">
-          {podium.map((entry) => (
-            <div key={entry.rank} className="results-podium-card">
+          {[podium[1], podium[0], podium[2]].map((entry, index) => (
+            <div
+              key={entry.rank}
+              className={`results-podium-card results-podium-${index === 1 ? "first" : index === 0 ? "second" : "third"}`}
+            >
               <div className="results-rank">#{entry.rank}</div>
               <div className="results-team">{entry.team}</div>
               <div className="results-track">{entry.track}</div>
