@@ -45,13 +45,15 @@ const sessions: Session[] = [
   },
   {
     id: "panel-discussion",
-    title: "Panel Discussion: Navigating the Future of Tech",
+    title: "What Makes a Problem and a solution ‘Serious’ in Engineering?",
     date: "08 February 2026",
     time: " ",
     description: [
-      "This panel will discuss how to identify real engineering problems and what makes a solution technically serious rather than superficial.",
-      "The conversation will focus on problem clarity, real-world constraints, and the importance of algorithmic reasoning, system design, and measurable improvement.",
-      "Panelists will also share common mistakes seen in hackathons and student projects, and explain what evaluators actually look for beyond demos and presentations.",
+      "Industry experts will discuss:",
+      "• The gap between academic learning and industry expectations",
+      "• How to survive and thrive in the era of AI",
+      "• Real-world engineering thinking",
+      "• Common pitfalls in hackathons and how to avoid them",
     ],
     speaker: {
       name: "Industry Experts Panel",
